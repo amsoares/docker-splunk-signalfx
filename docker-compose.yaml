@@ -2,6 +2,7 @@ version: '3'
 
 services:
   forwarder:
+    # build: ./container-forward
     image: splunk/universalforwarder:latest
     environment:
     - 'SPLUNK_PASSWORD=changeme'
